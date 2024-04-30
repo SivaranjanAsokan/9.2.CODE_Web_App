@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
- - source: s3://code-app-new/project-1/
-   destination: /var/www/html/project-1/
+ - source: /index.html about.html contact.html gallery.html services.html js/  scripts/ css/
+   destination: /var/www/html/
 hooks:
  BeforeInstall:
   - location: scripts/httpd_install.sh
