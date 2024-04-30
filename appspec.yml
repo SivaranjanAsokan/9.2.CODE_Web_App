@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
- - source: /index.html about.html contact.html gallery.html services.html js/  scripts/ css/
+ - source: /
    destination: /var/www/html/
 hooks:
  BeforeInstall:
